@@ -635,23 +635,10 @@ footer {
       width: auto;
       height: auto;
       position: static;
-      padding-left: 50px;
-      padding-right: 50px;
+      padding-left: 10px;
+      padding-right: 40px;
       }
     }
-
-    @media ( max-width: 1284px ) {
-      .img-projectl {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: auto;
-        height: auto;
-        position: static;
-        padding-left: 50px;
-        padding-right: 50px;
-        }
-      }
 
     @media ( max-width: 1284px ) {
       .img-projectar {
@@ -662,24 +649,21 @@ footer {
         height: auto;
         position: static;
         padding-left: 10px;
-        padding-right: 60px;
+        padding-right: 200px;
         }
       }
 
-
-@media ( max-width: 1284px ) {
-  .img-projectblender {
-     display: block;
-      margin-left: auto;
+  @media ( max-width: 1284px ) {
+    .img-blender {
+      display: block;
+      margin-left: 50px;
       margin-right: auto;
       width: auto;
-      height: auto;
       position: static;
       padding-left: 10px;
-      padding-right: 120px;
-          }
-        }
-  
+      padding-right: 40px;
+      }
+    }
 
 @media ( max-width: 1284px ) {
   .skill {
@@ -800,4 +784,4 @@ footer {
       margin-right: 10px;
     }
   }
-
+  

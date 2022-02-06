@@ -61,6 +61,24 @@ button {
   list-style-type: circle;
 }
 
+.btn {
+  background-color: purple;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  color: white;
+  background-color: #000000;
+}
+
+
 .accent {
   font-family: 'Montserrat', sans-serif;
   line-height: 14px;
@@ -101,10 +119,11 @@ button {
   font-size: large;
 }
 
-.about {
+.about{
   padding: 60px;
   min-height: 400px;
 }
+
 
 .aboutpic {
   padding: 60px;
@@ -734,6 +753,13 @@ footer {
     margin-right: 20px;
     margin-left: 20px;
   }
+}
+@media ( max-width: 1536px ) {
+.skill-2 {
+  padding: 60px;
+  min-height: 1250px;
+  margin-bottom: 20px;
+}
 }
 
 @media ( max-width: 1536px ) {

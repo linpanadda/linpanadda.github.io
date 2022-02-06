@@ -641,6 +641,19 @@ footer {
     }
 
     @media ( max-width: 1284px ) {
+      .img-projectl {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        height: auto;
+        position: static;
+        padding-left: 40px;
+        padding-right: 10px;
+        }
+      }
+
+    @media ( max-width: 1284px ) {
       .img-projectar {
         display: block;
         margin-left: auto;
@@ -769,3 +782,19 @@ footer {
   }
 }
 }
+
+@media ( max-width: 2048px ) {
+  .skill-2 {
+    padding: 60px;
+    min-height: 1250px;
+    margin-bottom: 20px;
+  }
+  }
+  
+  @media ( max-width: 2048px ) {
+    .skill-text {
+      width: 100%;
+      margin-right: 10px;
+    }
+  }
+

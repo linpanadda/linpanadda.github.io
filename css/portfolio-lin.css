@@ -605,8 +605,6 @@ footer {
     width: auto;
     height: auto;
     position: relative;
-    padding-left: 40px;
-    padding-right: 10px;
     }
   }
 
@@ -632,7 +630,7 @@ footer {
         height: auto;
         position: static;
         padding-left: 10px;
-        padding-right: 240px;
+        padding-right: 200px;
         }
       }
 

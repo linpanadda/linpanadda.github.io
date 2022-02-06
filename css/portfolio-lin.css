@@ -463,19 +463,26 @@ footer {
 .img-responsive {
   max-width: 60%;
   height: auto;
-  display: block;
   margin-left: auto;
   margin-right: auto;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
 }
 
 /* 980 px */
 
 @media ( max-width: 980px ) {
   .img-profile {
+    max-width: 120%;
       display: block;
-      margin-left: 100px;
+      margin-left: auto;
       margin-right: auto;
       width: auto;
+      position: relative;
     }
   }
 
@@ -506,7 +513,9 @@ footer {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: auto;
+      width: 100%;
+      height: auto;
+      position: static;
     }
   }
 
@@ -516,6 +525,7 @@ footer {
         margin-left: 50px;
         margin-right: auto;
         width: auto;
+        position: relative;
       }
     }
 
@@ -626,7 +636,7 @@ footer {
 }
 
 /* 1536 px */
-@media ( max-width: 980px ) {
+@media ( max-width: 1536px ) {
   .img-profile {
       display: block;
       margin-left: 100px;
@@ -641,7 +651,7 @@ footer {
   }
 }
 
-@media ( max-width: 1284px ) {
+@media ( max-width: 1536px ) {
   .projectpadding-l, .projectpadding-r,
   .projectpadding-rn {
     padding-left: 20px;
@@ -652,13 +662,13 @@ footer {
   }
 }
 
-@media ( max-width: 1284px ) {
+@media ( max-width: 1536px ) {
   .project p, .hi p{
     font-size: 15px;
   }
 }
 
-@media ( max-width: 980px) {
+@media ( max-width: 1536px) {
   .img-project {
       display: block;
       margin-left: auto;
@@ -667,7 +677,7 @@ footer {
     }
   }
 
-  @media ( max-width: 980px ) {
+  @media ( max-width: 1536px ) {
     .img-blender {
         display: block;
         margin-left: 50px;
@@ -676,7 +686,7 @@ footer {
       }
     }
     
-@media ( max-width: 1536px ) {
+@media ( max-width: 4000px ) {
   .skill {
     margin-right: 20px;
     margin-left: 20px;
